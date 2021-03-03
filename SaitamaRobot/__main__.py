@@ -49,7 +49,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-# Code editing and errors fixed by @souravkkkk.
+# Code editing and errors fixed by @RISHISUPERYO for @ROCKY_8218
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
@@ -61,22 +61,19 @@ HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a Telegram Group Management Bot and help admins/owners manage their groups in easy way! Have a look at the following for an idea of some of \
 the things I can help you with.
-
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-
-
 {}
 And the following:
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-THOR_IMG = "https://telegra.ph/file/49bfca4376b68a8b1cb84.jpg"
+LEGEND_IMG = "https://telegra.ph/file/f5e6a9549984f9cd095ea.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -105,7 +102,9 @@ for module_name in ALL_MODULES:
 
     # Chats to migrate on chat_migrated events
     if hasattr(imported_module, "__migrate__"):
-        MIGRATEABLE.append(imported_module)
+        MIGRATEABLE.append(importe
+
+d_module)
 
     if hasattr(imported_module, "__stats__"):
         STATS.append(imported_module)
@@ -141,7 +140,7 @@ def send_help(chat_id, text, keyboard=None):
 @run_async
 def test(update: Update, context: CallbackContext):
     # pprint(eval(str(update)))
-    # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
+    # update.effective_message.reply_text("Hola tester! _I_ *have* markdown", parse_mode=ParseMode.MARKDOWN)
     update.effective_message.reply_text("This person edited a message")
     print(update.effective_message)
 
@@ -201,20 +200,21 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Channel",
-                             url=f"https://t.me/opthorlog"),
+                             url=f"@TERA_BAAP_LUCIFER"),
                          InlineKeyboardButton(
                              text="Support Chat 🚑",
-                             url="https://t.me/opthor")
+                             url="@TERA_BAAP_LUCIFER")
                      ],
                      [
-                         InlineKeyboardButton(
+
+InlineKeyboardButton(
                              text="🧑‍💻Developer🧑‍💻",
-                             url="https://t.me/souravkkk")
+                             url="https://t.me/Rocky_8218")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/anime-thor/THOR-BOT")
+                             url="@ROCKY_8218")
                      ]]))
     else:
         update.effective_message.reply_text(
@@ -253,7 +253,7 @@ def error_callback(update: Update, context: CallbackContext):
         # handle all other telegram related errors
 
 
- # Code editing and errors fixed by @souravkkkk.
+ # Code editing and errors fixed by @TERA_BAAP_LUCIFER for @ROCKY_8218
 
 @run_async
 def help_button(update, context):
@@ -323,7 +323,9 @@ def get_help(update: Update, context: CallbackContext):
                 f"Contact me in PM to get help of {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
-                        text="Help",
+                        te
+
+xt="Help",
                         url="t.me/{}?start=ghelp_{}".format(
                             context.bot.username, module))
                 ]]))
@@ -420,7 +422,8 @@ def settings_button(update: Update, context: CallbackContext):
                 "you're interested in.".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(
-                        curr_page - 1, CHAT_SETTINGS, "stngs", chat=chat_id)))
+
+curr_page - 1, CHAT_SETTINGS, "stngs", chat=chat_id)))
 
         elif next_match:
             chat_id = next_match.group(1)
@@ -458,7 +461,7 @@ def settings_button(update: Update, context: CallbackContext):
                              str(query.data))
 
 
-# Code editing and errors fixed by @souravkkkk.
+# Code editing and errors fixed by @TERA_BAAP_LUCIFER for @ROCKY_8218
 
 @run_async
 def get_settings(update: Update, context: CallbackContext):
@@ -531,7 +534,8 @@ def main():
                                      migrate_chats)
 
     # dispatcher.add_handler(test_handler)
-    dispatcher.add_handler(start_handler)
+
+dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
@@ -563,9 +567,9 @@ def main():
     updater.idle()
 
 
-if __name__ == '__main__':
+if name == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
     
-# Code editing and errors fixed by @souravkkkk.
+# Code editing and errors fixed by @ROCKY_8218 @TERA_BAAP_LUCIFER
