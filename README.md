@@ -1,15 +1,14 @@
-![THOR BOT](https://telegra.ph/file/49bfca4376b68a8b1cb84.jpg)
+![LEGEND BOT](https://telegra.ph/file/f5e6a9549984f9cd095ea.jpg) 
+# LEGEND BOT
 
-# THOR BOT
-
-[![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/opthorlog)
+[![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/Rocky_8218)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [THOR BOT](https://telegram.me/Opthor_bot).
+Can be found on telegram as [LEGEND](https://telegram.me/LEGEND_PROBOT).
 
-The Support group can be reached out to at [THOR BOT Support](https://t.me/opthor), where you can ask for help about [THOR BOT Support](https://t.me/opthor), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [TERA BAAP](https://t.me/Rocky_8218), where you can ask for help about [THOR BOT Support](https://t.me/opthor), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
