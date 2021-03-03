@@ -1,5 +1,5 @@
-![THOR BOT](https://telegra.ph/file/f5e6a9549984f9cd095ea.jpg) 
-# THOR BOT
+![LEGEND BOT](https://telegra.ph/file/f5e6a9549984f9cd095ea.jpg) 
+# LEGEND BOT
 
 [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/opthorlog)
 
@@ -8,7 +8,7 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [THOR BOT](https://telegram.me/Opthor_bot).
 
-The Support group can be reached out to at [THOR BOT Support](https://t.me/opthor), where you can ask for help about [THOR BOT Support](https://t.me/opthor), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [TERA BAAP](https://t.me/Rocky_8218), where you can ask for help about [THOR BOT Support](https://t.me/opthor), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
