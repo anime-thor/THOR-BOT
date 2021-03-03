@@ -1,5 +1,4 @@
-![THOR BOT](https://telegra.ph/file/49bfca4376b68a8b1cb84.jpg)
-
+![THOR BOT](https://telegra.ph/file/f5e6a9549984f9cd095ea.jpg) 
 # THOR BOT
 
 [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/opthorlog)
